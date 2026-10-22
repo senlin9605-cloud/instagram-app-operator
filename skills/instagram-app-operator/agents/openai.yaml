@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instagram App 运营"
+  short_description: "通过 iPhone 镜像运营 App 账号、核验互动并持续保存工作流经验"
+  default_prompt: "使用 $instagram-app-operator 运营指定 App 的 Instagram 账号，并保存本轮数据与可复用经验。"

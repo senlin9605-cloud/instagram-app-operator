@@ -1,0 +1,4 @@
+interface:
+  display_name: "iPhone Mirroring Operator"
+  short_description: "Operate iPhone Mirroring and transfer images"
+  default_prompt: "Use $iphone-mirroring-operator to operate my mirrored iPhone and verify each requested result."
