@@ -8,3 +8,4 @@
 - A creator liked and replied to a comment about a specific design detail. This demonstrated a conversation opportunity, not downloads or conversion.
 - A newer Reel had more early plays but lower average watch, with no sends, saves or follows. Views alone did not demonstrate better creative. Compare similar ages and retain uncertainty for small samples.
 - Distinguish a separately generated concept from an output verified in the advertised App. A popular trend does not establish product fit.
+- A user-supplied Chrome screenshot can represent a different signed-in GitHub account from the in-app browser. Inspect the requested browser's actual profile link, not a translated display name or ambient login page, and match the configured repository destination to the verified owner. Git push permission alone does not establish that the destination is the user's intended account.
