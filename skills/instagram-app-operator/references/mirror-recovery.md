@@ -16,6 +16,7 @@ Reuse the user's routine-switching authorization under the active host policy; d
 
 - For a visible interruption, use the observed Retry control when authorized. Re-observe until the phone or actual error is visible.
 - Verify the handle and pending action after recovery. The last tap may have reached the phone; do not blindly replay sends, likes or publishing.
+- If a verified live connection changes to a different physical device or account without this task switching it, stop public actions and re-read the current connection setting. A confirmed unexpected change means exclusive control is not established. Report the conflict and coordinate with the user rather than repeatedly switching back against another active operation. Do not count actions observed under the other identity as this account's work.
 - With standing reconnect authorization, recover occasional later interruptions too. After two consecutive attempts fail to restore a usable screen, stop and report the blocker. A successful operation resets the recovery count. This is a reliability bound, not an activity limit.
 - For phone-in-use errors, try the offered connection once; if it persists, ask the user to lock the phone. Hand off physical authentication/approval. Do not prescribe unlocking when mirroring requires a locked phone.
 - Do not change VPN, Bluetooth, Wi-Fi, permissions or authentication to repair a routine interruption without the applicable authorization.
