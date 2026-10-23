@@ -31,7 +31,7 @@ For strategy and calendars, use `instagram-organic` when installed. Ground decis
 ## Prepare and publish when requested
 
 - Follow the user's saved asset-creation route. When they want text, images and video prepared in the conversation, keep creation and review there; do not substitute in-App video generation. If the available tools cannot produce a requested asset, report the limitation instead of changing its source silently.
-- When demonstrating App features, use verified App output or workflow with a visible payoff in the opening. Original concepts prepared elsewhere can support relevant content, with accurate provenance and product claims.
+- When checking product fit, read the full current product description; a store title can omit supported features. Distinguish developer-listed capabilities from tested outputs. When demonstrating App features, use verified App output or workflow with a visible payoff in the opening. Original concepts prepared elsewhere can support relevant content, with accurate provenance and product claims.
 - Check the trend's date and source. Identify an AI concept as a concept. Do not present separately generated imagery as an App result unless the App actually produced it.
 - Use original/authorized assets, concise captions and a readable cover. Review final media, grid crop, spelling and the complete caption. Apply AI disclosure when required and check music usage rights for the account.
 - Base timing on audience Insights when available, otherwise label the slot as a test. Create scheduled work only when requested and supported.
