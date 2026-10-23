@@ -9,7 +9,7 @@ Run the authorized account task to a verified result. Treat growth as reaching l
 
 ## Start with identity and scope
 
-- Read `~/.codex/instagram-app-operator/local.json`, its `operations_root`, the account/device map and latest activity record there. Keep these private files outside this skill's Git repository.
+- Read `~/.codex/instagram-app-operator/local.json`, its `operations_root`, the account/device map including content and asset-creation preferences, and latest activity record there. Keep these private files outside this skill's Git repository.
 - Reuse established authorization for ordinary operations and device switching. Apply the active host confirmation policy to the actual action; do not add blanket approval gates or copy an old policy into this skill.
 - Verify the Instagram handle before each account's work and after a device switch or reconnect. An installed App, avatar, similar name or another account's link does not establish identity.
 - If an account is unregistered or its mapping is unknown, skip its mutations and continue known accounts. Do not register accounts or repurpose a different brand account without a request.
@@ -30,7 +30,8 @@ For strategy and calendars, use `instagram-organic` when installed. Ground decis
 
 ## Prepare and publish when requested
 
-- Show the App's real output or workflow with a visible payoff in the opening. Connect trends to actual features and likely users.
+- Follow the user's saved asset-creation route. When they want text, images and video prepared in the conversation, keep creation and review there; do not substitute in-App video generation. If the available tools cannot produce a requested asset, report the limitation instead of changing its source silently.
+- When demonstrating App features, use verified App output or workflow with a visible payoff in the opening. Original concepts prepared elsewhere can support relevant content, with accurate provenance and product claims.
 - Check the trend's date and source. Identify an AI concept as a concept. Do not present separately generated imagery as an App result unless the App actually produced it.
 - Use original/authorized assets, concise captions and a readable cover. Review final media, grid crop, spelling and the complete caption. Apply AI disclosure when required and check music usage rights for the account.
 - Base timing on audience Insights when available, otherwise label the slot as a test. Create scheduled work only when requested and supported.
