@@ -10,6 +10,7 @@ Run the authorized account task to a verified result. Treat growth as reaching l
 ## Start with identity and scope
 
 - Read `~/.codex/instagram-app-operator/local.json`, its `operations_root`, the account/device map including content and asset-creation preferences, and latest activity record there. Keep these private files outside this skill's Git repository.
+- If local config provides `promotion_config`, resolve the requested product, platform and account there before preparing content. Read publishing, research/query and reply settings separately, including their own schedules and current blockers. Never inherit another product's identity, content angle, frequency or permission; a configured schedule is not evidence that an action is currently allowed or completed.
 - Reuse established authorization for ordinary operations and device switching. Apply the active host confirmation policy to the actual action; do not add blanket approval gates or copy an old policy into this skill.
 - Verify the Instagram handle before each account's work and after a device switch or reconnect. An installed App, avatar, similar name or another account's link does not establish identity.
 - If an account is unregistered or its mapping is unknown, skip its mutations and continue known accounts. Do not register accounts or repurpose a different brand account without a request.
